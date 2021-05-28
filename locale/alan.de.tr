@@ -1,0 +1,6 @@
+# textdomain: alan
+### init.lua ###
+
+true=wahr
+false=falsch
+alan -!- object could not be recognized.=alan -!- Objekt wurde nicht erkannt.
