@@ -1,9 +1,9 @@
 # Alan
 
 
-Das Werkzeug »Alan« hilft, Informationen über den Block zu erhalten, den man gerade mit dem Werkzeug angeklickt hat. Die Informationen werden in einem Formspec angezeigt. Nützlich zum Beispiel für WorldEdit, wenn man den technischen Namen eines Blockes benötigt. Oder, um herauszufinden, welcher Mod ein »unknown object« produziert.
+Das Werkzeug »Alan« hilft, Informationen über den Block zu erhalten, den man gerade mit dem Werkzeug angeklickt hat. Die Informationen werden in einem Formspec angezeigt und können von dort kopiert werden. Nützlich zum Beispiel für WorldEdit, wenn man den technischen Namen eines Blockes benötigt. Oder, um bei einem als »unknown object« angezeigtem Block herauszufinden, welcher Mod ihn produziert.
 
-The tool »Alan« helps to get information about the item you just punched with the tool. The information would be shown in a formspec. Useful, if you for example need the technical name of an item for WorldEdit. Or witch mod produces an »unknown object«.
+The tool »Alan« helps to get information about the item you just punched with the tool. The information would be shown in a formspec and can be copied from there. Useful, if you for example need the technical name of an item for WorldEdit. Or which mod produces an »unknown object«.
 
 
 <img src="screenshot.png">
