@@ -73,9 +73,9 @@ minetest.register_tool("alan:info_tool", {
 
 		local formspec =
 					"formspec_version[4]" ..
-					"size[10.5,4]" ..
-					"textarea[0.25,0.4;12.0,9.0;;;".. output .."]" ..
-					"button_exit[8.2,3.1;2,0.75;quit;quit]"
+					"size[11.1,4.5]" ..
+					"textarea[0.25,0.4;11.1,4.5;;;".. output .."]" ..
+					"button_exit[8.8,3.5;2.0,0.75;quit;quit]"
 
 		minetest.show_formspec(playername, "alan_info", formspec)
 	end
