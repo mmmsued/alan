@@ -44,7 +44,7 @@ minetest.register_tool("alan:info_tool", {
 			local param = minetest.get_node(pos_pointed).param or "Kein Param-Wert gefunden"
 			local param2 = minetest.get_node(pos_pointed).param2 or "Kein Param2-Wert gefunden"
 
-			local protected = minetest.is_protected(pos_pointed, placer) -- ist Objekt für puncher geschützt?
+			local protected = minetest.is_protected(pos_pointed, playername) -- ist Objekt für puncher geschützt?
 			local meta = minetest.get_meta(pos_pointed)
 			local owner = meta:get_string("owner") or "Keine Angaben zum Besitz gefunden"
 
