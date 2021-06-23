@@ -12,7 +12,7 @@ Verwendung:
 Man schlägt mit dem Werkzeug auf den Block, über den man gerne weiterführende Informationen hätte. Es öffnet sich ein Formspec, der die Informationen anzeigt.
 
 Hinweise:
-Funktioniert nicht bei allen Blöcken (zum Beispiel mit Q abgeworfenen Objekten).
+Funktioniert nicht bei allen Blöcken (zum Beispiel mit Q abgeworfenen Objekten). Leider wurden in Version 5.4 Änderungen im Verhalten von formspecs vorgenommen, so dass es momentan ncht mehr möglich ist, Zeichenketten aus einem einfachen textarea heraus zu kopieren. 
 
 Lizenz:
 Copyright (C) 2021 Norbert Thien, multimediamobil - Region Süd, Lizenz: Creative Commons BY-SA 4.0
