@@ -41,7 +41,7 @@ minetest.register_tool("alan:info_tool", {
 				description = description .. " ... (gekürzt)"
 			end
 
-			local param = minetest.get_node(pos_pointed).param or "Kein Param-Wert gefunden"
+			local param = minetest.get_node(pos_pointed).param1 or "Kein Param-Wert gefunden"
 			local param2 = minetest.get_node(pos_pointed).param2 or "Kein Param2-Wert gefunden"
 
 			local protected = minetest.is_protected(pos_pointed, playername) -- ist Objekt für puncher geschützt?
